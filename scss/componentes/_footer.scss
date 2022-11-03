@@ -1,0 +1,17 @@
+footer{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 2fr);
+    a{
+        text-decoration: none;
+        background-color: $green;
+        font-size: $small;
+    }
+}
+
+.clase{
+    background-color: nth($colores, 4);
+    font-size: nth($size, 4);
+}
+

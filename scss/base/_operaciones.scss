@@ -1,0 +1,9 @@
+$ancho: 800px;
+
+// componentes
+
+.card{
+    width: $ancho/4;
+    padding: ($ancho/4)/4;
+    font-size: $ancho/100;
+}

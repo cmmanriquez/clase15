@@ -1,0 +1,24 @@
+@mixin pieDePagina{
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+}
+
+// componentes
+
+.txt-footer{
+    @include pieDePagina();
+}
+
+// con parametros sin valores
+
+@mixin txt-principal($size, $color, $padd, $dec ){
+    font-size: $size;
+    color: $color;
+    padding: $padd;
+    text-decoration: $dec;
+}
+
+.txt-main{
+    @include txt-principal(12px,black ,10px ,none);
+}

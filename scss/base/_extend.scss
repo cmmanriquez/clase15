@@ -1,0 +1,11 @@
+%display-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+};
+
+%display-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

@@ -1,0 +1,20 @@
+.btn{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    border: 2px solid black;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    color: black;
+}
+.btn-pink{
+    background-color: pink;
+    @extend .btn;
+}
+.btn-grey{
+    background-color: grey;
+    @extend .btn;
+}
+.btn-blue{
+    background-color: blue;
+    @extend .btn;
+}

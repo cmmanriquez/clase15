@@ -1,0 +1,100 @@
+section {
+  background-color: #999900;
+}
+
+main {
+  background-color: #ffedcc;
+}
+
+div {
+  background-color: #ffd200;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  padding: 50px;
+  font-size: 8px;
+}
+
+.txt-footer {
+  background-color: blue;
+  padding: 50px;
+  text-align: center;
+}
+
+.txt-main {
+  font-size: 12px;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header {
+  background-color: orange;
+  border: 3px dotted blue;
+}
+header nav ul {
+  list-style: none;
+  padding: 20px;
+}
+header nav ul li {
+  background-color: lightblue;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 720px) {
+  header {
+    background-color: lightgray;
+  }
+}
+
+footer {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 2fr);
+}
+footer a {
+  text-decoration: none;
+  background-color: #9cde9c;
+  font-size: 16px;
+}
+
+.clase {
+  background-color: blue;
+  font-size: 44px;
+}
+
+.btn, .btn-blue, .btn-grey, .btn-pink {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium";
+  border: 2px solid black;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.btn-pink {
+  background-color: pink;
+}
+
+.btn-grey {
+  background-color: grey;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

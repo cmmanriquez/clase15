@@ -1,0 +1,30 @@
+section {
+    background-color: #999900;
+  }
+  
+  main {
+    background-color: #ffedcc;
+  }
+  
+  div {
+    background-color: #ffd200;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 50px;
+    font-size: 8px;
+  }
+  
+  .txt-footer {
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+  }
+  

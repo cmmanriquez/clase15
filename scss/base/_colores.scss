@@ -1,0 +1,14 @@
+$main-color: yellow;
+$second-color: orange;
+
+section{
+    background-color: darken($main-color, 20%);
+}
+main{
+    background-color: lighten($second-color, 40%);
+}
+
+div{
+    background-color: mix($main-color, $second-color);
+}
+
